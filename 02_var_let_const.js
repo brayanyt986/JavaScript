@@ -9,10 +9,11 @@ It can be declared and redeclared several times in the program
 var a = "hello"
 var a = 67 // here var a is being redeclared and this will not throw an error.
 
-//while working on a large codebase, var keyword is avoided because it provides high flexibility to any user to change the value easily. Due to this, bugs will be difficult to track in the program 
+/*while working on a large codebase, var keyword is avoided because it provides high flexibility to any user to change the value easily. 
+Due to this, bugs will be difficult to track in the program */
 
-//let - this keyword is used to declare variables that are declared only once, and can't be redeclared again in the same scope
-// These are block scoped variables, meaning, their scope is confined to the block they are declared in 
+/*let - this keyword is used to declare variables that are declared only once, and can't be redeclared again in the same scope
+These are block scoped variables, meaning, their scope is confined to the block they are declared in*/
 
 let b  = 67
 // console.log(b)
