@@ -2,7 +2,7 @@
 
 1) User logical operators to find if the age of a person is lies between 10 and 20
 
-2) Demonstrate the use of switch case statements in Javascript 
+2) Demonstrate the use of switch case statements in JavaScript 
 
 3) Write a program to find if a number is divisible by 2 and 3
 
