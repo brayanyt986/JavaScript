@@ -18,10 +18,10 @@ These are block scoped variables, meaning, their scope is confined to the block 
 let b  = 67
 // console.log(b)
 {
-  let b = 55 //redeclaring in different block in allowed. Makes a new copy 
+  let b = 55 //redeclaring in different block is allowed. Makes a new copy 
   console.log(b) // here it prints 55
 }
-console.log(b) //here it prints 67
+console.log(b) //here it prints 67, because it is in the main scope
 
 var e = "hello"
 {
@@ -37,15 +37,11 @@ console.log(e) // here also, hi will be printed therefore we are changing the va
 //They must be intialized during declaration unlike const and var 
 
 
-/*const k = "hello"
+const k = "hello"
 k = "ee" This is not possible because const can't be updated
-*/
 
-console.log(w)
-{
-  var w = 23
-}
-console.log(w)
+
+
 
 
 
